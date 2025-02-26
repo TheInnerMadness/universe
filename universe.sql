@@ -276,21 +276,21 @@ ALTER TABLE ONLY public.star ALTER COLUMN star_id SET DEFAULT nextval('public.st
 -- Data for Name: anomaly; Type: TABLE DATA; Schema: public; Owner: freecodecamp
 --
 
-INSERT INTO public.anomaly VALUES (1, 'Temporal Distortion', 1, 'Time Loop', true, 8, 'Temporal anomaly discovered near the galactic center. Early tests suggest time moves slower within the anomaly, but the exact nature remains elusive.');
-INSERT INTO public.anomaly VALUES (2, 'Gravitational Rift', 1, 'Gravity Well', true, 7, 'A massive gravitational rift detected. Ships experience intense gravitational forces as they get closer, making escape difficult.');
-INSERT INTO public.anomaly VALUES (3, 'Dark Matter Veil', 1, 'Energy Field', true, 6, 'We’ve discovered a large pocket of dark matter near the galactic edge. Initial scans show it disrupts normal communication channels.');
-INSERT INTO public.anomaly VALUES (4, 'Dimensional Fracture', 2, 'Dimensional Rift', true, 9, 'The anomaly seems to be a dimensional fracture. A few ships have gone missing after entering the region. We are monitoring for any strange changes.');
-INSERT INTO public.anomaly VALUES (5, 'Quantum Singularity', 2, 'Quantum Anomaly', true, 10, 'A quantum singularity was detected. Its mass changes unpredictably, and it seems to distort time and space around it.');
-INSERT INTO public.anomaly VALUES (6, 'Void Echoes', 2, 'Energy Echo', true, 5, 'There’s an eerie resonance detected in deep space. Some say it’s the ghost of a lost civilization, others claim it’s just space noise.');
-INSERT INTO public.anomaly VALUES (7, 'Antimatter Storm', 3, 'Antimatter Event', true, 8, 'An antimatter storm was detected on the edge of Triangulum. Its energy field is capable of disintegrating anything caught within.');
-INSERT INTO public.anomaly VALUES (8, 'Hypernova Remnant', 3, 'Stellar Anomaly', true, 6, 'The remains of a hypernova create strange magnetic waves. It’s disrupting communications and causing havoc for ships navigating too close.');
-INSERT INTO public.anomaly VALUES (9, 'Energy Sinkhole', 3, 'Energy Absorption', true, 7, 'We’ve identified an energy sinkhole near the Triangulum edge. Any ship within proximity loses all energy and power systems are knocked out.');
-INSERT INTO public.anomaly VALUES (10, 'Inverted Nebula', 4, 'Nebula Distortion', true, 6, 'The nebula near Sombrero is unlike any we’ve seen. It radiates strange energy and causes anomalies in navigation systems.');
-INSERT INTO public.anomaly VALUES (11, 'Frozen Time Bubble', 4, 'Temporal Bubble', true, 7, 'A strange bubble of frozen time has been observed in the Sombrero galaxy. Ships entering seem to be stuck in stasis.');
-INSERT INTO public.anomaly VALUES (12, 'Starship Graveyard', 4, 'Spatial Distortion', true, 5, 'A graveyard of lost starships. All of them seem to have been trapped in some form of spatial distortion. Nothing can leave the area unscathed.');
-INSERT INTO public.anomaly VALUES (13, 'Tidal Time Flux', 5, 'Temporal Tidal Wave', true, 8, 'The anomaly is a tidal time flux, where time itself is being distorted in periodic waves. Anyone who survives the wave has either aged or regressed.');
-INSERT INTO public.anomaly VALUES (14, 'Dimensional Whirlpool', 5, 'Dimensional Rift', true, 9, 'A dimensional whirlpool is located in the heart of the Whirlpool galaxy. Once inside, there is no guarantee you’ll return to the same reality.');
-INSERT INTO public.anomaly VALUES (15, 'Energy Amplification Zone', 5, 'Energy Surge', true, 7, 'A zone of immense energy amplification. Ships entering the zone experience extreme energy surges that could cause devastating consequences.');
+INSERT INTO public.anomaly VALUES (1, 'Temporal Distortion', 1, 'Time Loop', true, 8, 'Temporal anomaly discovered near the galactic center.');
+INSERT INTO public.anomaly VALUES (2, 'Gravitational Rift', 1, 'Gravity Well', true, 7, 'A massive gravitational rift detected.');
+INSERT INTO public.anomaly VALUES (3, 'Dark Matter Veil', 1, 'Energy Field', true, 6, 'We’ve discovered a large pocket of dark matter near the galactic edge.');
+INSERT INTO public.anomaly VALUES (4, 'Dimensional Fracture', 2, 'Dimensional Rift', true, 9, 'The anomaly seems to be a dimensional fracture.');
+INSERT INTO public.anomaly VALUES (5, 'Quantum Singularity', 2, 'Quantum Anomaly', true, 10, 'A quantum singularity was detected.');
+INSERT INTO public.anomaly VALUES (6, 'Void Echoes', 2, 'Energy Echo', true, 5, 'There’s an eerie resonance detected in deep space.');
+INSERT INTO public.anomaly VALUES (7, 'Antimatter Storm', 3, 'Antimatter Event', true, 8, 'An antimatter storm was detected on the edge of Triangulum.');
+INSERT INTO public.anomaly VALUES (8, 'Hypernova Remnant', 3, 'Stellar Anomaly', true, 6, 'The remains of a hypernova create strange magnetic waves.');
+INSERT INTO public.anomaly VALUES (9, 'Energy Sinkhole', 3, 'Energy Absorption', true, 7, 'We’ve identified an energy sinkhole near the Triangulum edge.');
+INSERT INTO public.anomaly VALUES (10, 'Inverted Nebula', 4, 'Nebula Distortion', true, 6, 'The nebula near Sombrero is unlike any we’ve seen.');
+INSERT INTO public.anomaly VALUES (11, 'Frozen Time Bubble', 4, 'Temporal Bubble', true, 7, 'A strange bubble of frozen time has been observed in the Sombrero galaxy.');
+INSERT INTO public.anomaly VALUES (12, 'Starship Graveyard', 4, 'Spatial Distortion', true, 5, 'A graveyard of lost starships.');
+INSERT INTO public.anomaly VALUES (13, 'Tidal Time Flux', 5, 'Temporal Tidal Wave', true, 8, 'The anomaly is a tidal time flux, where time itself is being distorted in periodic waves.');
+INSERT INTO public.anomaly VALUES (14, 'Dimensional Whirlpool', 5, 'Dimensional Rift', true, 9, 'A dimensional whirlpool is located in the heart of the Whirlpool galaxy.');
+INSERT INTO public.anomaly VALUES (15, 'Energy Amplification Zone', 5, 'Energy Surge', true, 7, 'A zone of immense energy amplification.');
 
 
 --
